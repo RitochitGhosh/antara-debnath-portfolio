@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div className="p-4 sm:p-6 max-w-3xl mx-auto font-sans flex flex-col mt-12 sm:mt-32">
+    <div className="p-4 sm:p-6 max-w-3xl mx-auto font-sans flex flex-col mt-24 sm:mt-32">
       {/* Breadcrumb */}
       <nav className="flex mb-6 text-sm text-gray-600">
         <Link href="/" className="hover:text-gray-900">Home</Link>
@@ -33,12 +33,17 @@ export default function Page() {
       {/* Title */}
       <h1 className="title text-4xl sm:text-4xl font-bold mb-4">Financial Statement Analysis: A Comprehensive Guide for Commerce Students</h1>
       <div className="flex flex-wrap gap-x-2 gap-y-1 justify-start items-center py-2 sm:py-8">
-        <Avatar>
-          <AvatarImage src="https://api.dicebear.com/7.x/initials/svg?seed=AD" />
-          <AvatarFallback>AD</AvatarFallback>
-        </Avatar>
-        <span className="text-gray-500 font-semibold">Antara Debnath</span>
-        <Calendar className="size-4" /> December 24, 2024
+        <div className="flex items-center gap-x-2">
+          <Avatar>
+            <AvatarImage src="https://api.dicebear.com/7.x/initials/svg?seed=AD" />
+            <AvatarFallback>AD</AvatarFallback>
+          </Avatar>
+          <span className="text-gray-500 font-semibold">Antara Debnath</span>
+        </div>
+        <div className="flex items-center gap-x-1">
+          <Calendar className="size-4" />
+          <span>December 24, 2024</span>
+        </div>
       </div>
 
       <h1 className="text-2xl sm:text-3xl font-bold tracking-tighter mt-6 sm:mt-8">Introduction</h1>
