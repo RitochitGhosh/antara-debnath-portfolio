@@ -4,7 +4,7 @@ export const posts = [
     {
       title: "Financial Statement Analysis",
       author: "Antara Debnath",
-      publishedAt: "2023-12-15",
+      publishedAt: "2024-12-24",
       likes: 100,
       description: "A guide to understanding financial statements and how to analyze them.",
       content: "/posts/financial-statement-analysis",
