@@ -30,14 +30,14 @@ export default function Page() {
       />
 
       {/* Title */}
-      <h1 className="title text-4xl sm:text-4xl text-3xl font-bold mb-4">Financial Statement Analysis: A Comprehensive Guide for Commerce Students</h1>
+      <h1 className="title text-4xl sm:text-4xl font-bold mb-4">Financial Statement Analysis: A Comprehensive Guide for Commerce Students</h1>
       <div className="flex flex-wrap gap-x-2 gap-y-1 justify-start items-center py-2 sm:py-8">
         <Avatar>
           <AvatarImage src="https://api.dicebear.com/7.x/initials/svg?seed=AD" />
           <AvatarFallback>AD</AvatarFallback>
         </Avatar>
         <span className="text-gray-500 font-semibold">Antara Debnath</span>
-        <Calendar className="size-4" /> March 15, 2024
+        <Calendar className="size-4" /> December 24, 2024
       </div>
 
       <h1 className="text-2xl sm:text-3xl font-bold tracking-tighter mt-6 sm:mt-8">Introduction</h1>
