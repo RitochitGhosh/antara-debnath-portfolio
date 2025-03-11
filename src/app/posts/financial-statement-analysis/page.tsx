@@ -41,12 +41,12 @@ export default function Page() {
       </div>
 
       <h1 className="text-3xl font-bold tracking-tighter mt-8">Introduction</h1>
-      <p className="mt-3 text-gray-700 leading-relaxed">
+      <p className="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed">
         Financial statement analysis is a crucial skill for commerce students and business professionals. It involves examining financial statements to evaluate a company&quot;s performance, stability, and potential for growth. This guide will walk you through the fundamental concepts and techniques.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8">Key Components of Financial Statements</h2>
-      <ul className="list-disc list-inside text-gray-700 leading-relaxed mt-3">
+      <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
         <li><strong className="bg-orange-300 px-1 rounded dark:bg-orange-900">Balance Sheet</strong> - Shows assets, liabilities, and shareholders&quot; equity</li>
         <li><strong className="bg-orange-300 px-1 rounded dark:bg-orange-900">Income Statement</strong> - Details revenues, expenses, and profit/loss</li>
         <li><strong className="bg-orange-300 px-1 rounded dark:bg-orange-900">Cash Flow Statement</strong> - Tracks cash movements</li>
@@ -62,7 +62,7 @@ export default function Page() {
       /> */}
 
       <h2 className="text-2xl font-semibold mt-8">Important Financial Ratios</h2>
-      <div className="mt-3 text-gray-700">
+      <div className="mt-3 text-gray-700 dark:text-gray-300">
         <h3 className="text-xl font-medium mt-6">1. Liquidity Ratios</h3>
         <CodeBlock
           code={`Current Ratio = Current Assets / Current Liabilities
@@ -76,15 +76,15 @@ Net Profit Margin = Net Profit / Revenue × 100`}
         />
       </div>
 
-      <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-600 my-4">
+      <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-600 dark:text-gray-400 my-4">
         &quot;Financial statements are like a company&quot;s report card. They tell us about its health, performance, and future potential.&quot;<br />— Warren Buffett
       </blockquote>
 
       <h2 className="text-2xl font-semibold mt-8">Practical Applications</h2>
-      <p className="mt-3 text-gray-700 leading-relaxed">
+      <p className="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed">
         Understanding financial statement analysis helps in:
       </p>
-      <ul className="list-disc list-inside text-gray-700 leading-relaxed">
+      <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 leading-relaxed">
         <li><strong className="bg-blue-300 px-1 rounded dark:bg-blue-900">Investment Decisions</strong> - Evaluating potential investments</li>
         <li><strong className="bg-blue-300 px-1 rounded dark:bg-blue-900">Credit Analysis</strong> - Assessing creditworthiness</li>
         <li><strong className="bg-blue-300 px-1 rounded dark:bg-blue-900">Business Strategy</strong> - Making informed business decisions</li>
@@ -92,7 +92,7 @@ Net Profit Margin = Net Profit / Revenue × 100`}
       </ul>
 
       <h2 className="text-2xl font-semibold mt-8">Conclusion</h2>
-      <p className="mt-3 text-gray-700 leading-relaxed">
+      <p className="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed">
         Mastering financial statement analysis is essential for commerce students. It provides the foundation for understanding business performance and making informed financial decisions. Keep practicing with real-world examples to strengthen your analytical skills.
       </p>
     </div>
