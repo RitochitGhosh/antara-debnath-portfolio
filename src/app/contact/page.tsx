@@ -176,9 +176,9 @@ const ContactPage = () => {
 
               <p className="text-sm text-muted-foreground">
                 By submitting this form, you agree to our{' '}
-                <a href="/privacy" className="text-primary hover:underline">
+                <Link href="/privacy" className="text-primary hover:underline">
                   privacy policy
-                </a>
+                </Link>
                 .
               </p>
             </div>
