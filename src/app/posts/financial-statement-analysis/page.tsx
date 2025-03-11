@@ -25,7 +25,8 @@ export default function Page() {
         alt="Financial Analysis"
         width={800}
         height={400}
-        className="w-full h-48 sm:h-[400px] object-cover rounded-lg mb-8"
+        className="w-full max-w-full h-48 sm:h-[400px] object-cover rounded-lg mb-8"
+        style={{ maxWidth: '100%' }}
         priority
       />
 
