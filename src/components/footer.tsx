@@ -4,7 +4,7 @@ import Link from 'next/link';
 const navigation = [
   {
     name: 'LinkedIn',
-    href: '#',
+    href: 'https://www.linkedin.com/in/antara-debnath-276a25308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     icon: LinkedinIcon
   },
   {
@@ -19,7 +19,7 @@ const navigation = [
   },
   {
     name: 'Instagram',
-    href: '#',
+    href: 'https://www.instagram.com/an_tara65?igsh=MTB3ZmoweXZpMTcwNA==',
     icon: InstagramIcon
   },
 ]
